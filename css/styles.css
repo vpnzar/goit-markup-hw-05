@@ -7,9 +7,9 @@ html {
   box-sizing: inherit;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 h1,
 h2,
@@ -460,14 +460,13 @@ p {
 .gallery-text {
   position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   right: 0;
   margin: 0;
   width: 370px;
   height: 70px;
-  padding: 27px 82px 27px 83px;
-
-  /* font-style */
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -756,6 +755,7 @@ p {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 address > p {
@@ -796,7 +796,6 @@ address .contact-link {
 
 .footer-join {
   display: block;
-  margin-top: 12px;
 }
 
 .join-title {
