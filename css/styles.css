@@ -342,8 +342,8 @@ p {
 
 .modal {
   position: absolute;
-  /* right: 370px;
-  bottom: 20px; */
+  right: 370px;
+  bottom: 20px;
   width: 528px;
   height: 581px;
   background-color: var(--main-background-color);
