@@ -595,6 +595,7 @@ p {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  outline: none;
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -803,6 +804,7 @@ address .contact-link {
 
 .footer-join {
   display: block;
+  margin-right: 93px;
 }
 
 .join-title {
@@ -850,4 +852,72 @@ address .contact-link {
 
 .join-item {
   list-style: none;
+}
+
+/* Subscribe footer-field */
+
+.sub-form {
+  display: flex;
+  align-items: flex-end;
+  width: 570px;
+  height: 86px;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-field {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .sub-title {
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.sub-field input {
+  padding: 15px 295px 15px 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px #00000026);
+  border-radius: 4px;
+  background-color: inherit;
+}
+
+.sub-field input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+}
+
+.sub-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.sub-icon {
+  margin-left: 10px;
+  fill: var(--section-accent-color);
 }
